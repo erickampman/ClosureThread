@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		E40C6A28265E9DFF00CA6425 /* ClosureThread */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClosureThread; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40C6A2B265E9DFF00CA6425 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E40C6A32265E9E1700CA6425 /* LambdaThread.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LambdaThread.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +59,7 @@
 			isa = PBXGroup;
 			children = (
 				E40C6A2B265E9DFF00CA6425 /* main.cpp */,
+				E40C6A32265E9E1700CA6425 /* LambdaThread.hpp */,
 			);
 			path = ClosureThread;
 			sourceTree = "<group>";
