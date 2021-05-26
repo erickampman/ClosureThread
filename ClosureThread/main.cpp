@@ -8,9 +8,11 @@
 #include <iostream>
 
 #include "LambdaThread.hpp"
+#include "LambdaProcessor.hpp"
 
 int main(int argc, const char * argv[]) {
 	
+	std::cout << "--------------------------------------------------------------------------------" << std::endl;
 	std::function<void(TLambdaData<int>)> runf = [](TLambdaData<int> data){
 		std::cout << "runf, data: " << data.data_ << std::endl;
 	};
@@ -31,5 +33,10 @@ int main(int argc, const char * argv[]) {
 		},
 		data);
 	lt2.run();
+	
+	std::cout << "--------------------------------------------------------------------------------" << std::endl;
+
+	LambdaProcessor lp(200);
+	lp.run();
 	return 0;
 }

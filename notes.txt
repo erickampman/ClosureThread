@@ -1,0 +1,9 @@
+
+note: candidate constructor not viable: no known conversion from
+
+'function<void (TLambdaData<LambdaProcessor &>)>' to
+
+'function<void (TLambdaData<TLambdaData<LambdaProcessor &>>)>'
+
+for 1st argument
+        LambdaThread<T>(std::function<void(TLambdaData<T>)> run,

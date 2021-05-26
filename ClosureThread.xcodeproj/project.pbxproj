@@ -26,6 +26,8 @@
 		E40C6A28265E9DFF00CA6425 /* ClosureThread */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ClosureThread; sourceTree = BUILT_PRODUCTS_DIR; };
 		E40C6A2B265E9DFF00CA6425 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E40C6A32265E9E1700CA6425 /* LambdaThread.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LambdaThread.hpp; sourceTree = "<group>"; };
+		E40C6A33265EE4CE00CA6425 /* LambdaProcessor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LambdaProcessor.hpp; sourceTree = "<group>"; };
+		E40C6A34265EEBA500CA6425 /* notes.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = notes.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		E40C6A1F265E9DFF00CA6425 = {
 			isa = PBXGroup;
 			children = (
+				E40C6A34265EEBA500CA6425 /* notes.txt */,
 				E40C6A2A265E9DFF00CA6425 /* ClosureThread */,
 				E40C6A29265E9DFF00CA6425 /* Products */,
 			);
@@ -60,6 +63,7 @@
 			children = (
 				E40C6A2B265E9DFF00CA6425 /* main.cpp */,
 				E40C6A32265E9E1700CA6425 /* LambdaThread.hpp */,
+				E40C6A33265EE4CE00CA6425 /* LambdaProcessor.hpp */,
 			);
 			path = ClosureThread;
 			sourceTree = "<group>";
